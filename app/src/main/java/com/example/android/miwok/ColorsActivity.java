@@ -12,6 +12,7 @@ public class ColorsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
+        // console.log("JS")
 
         ArrayList<Word> word = new ArrayList<Word>();
         word.add(new Word("red", "weṭeṭṭi", R.drawable.color_red, R.raw.color_red));

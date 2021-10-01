@@ -13,5 +13,6 @@ public class Headerfst {
 			line = line.substring(line.lastIndexOf("# ") + 1, line.length());
 			System.out.println(line);
 		}
+		System.out.println("LOGGER :: Exit");
 	}
 }

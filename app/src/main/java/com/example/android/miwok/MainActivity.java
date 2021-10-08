@@ -59,7 +59,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(phrasesIntent);
             }
         });
-
+        
+        Log.d("TAG","For Hacktober");
+        
         family.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

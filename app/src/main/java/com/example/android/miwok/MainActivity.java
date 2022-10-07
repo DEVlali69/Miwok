@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(colorsIntent);
             }
         });
-
+        System.out.println('test');
         phrases.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

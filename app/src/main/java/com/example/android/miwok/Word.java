@@ -34,4 +34,10 @@ public class Word {
     public int getAudio() {
         return mAudio;
     }
+    
+    @override
+    public String toString(){
+        return mDefaultTranslation+" | "+mMiwokTranslation;
+    }
+        
 }

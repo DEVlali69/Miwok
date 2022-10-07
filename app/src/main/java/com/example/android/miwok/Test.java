@@ -61,4 +61,8 @@ public class Test{
         
         System.out.println("Hello "+name+", you have added load of "+weight+"kgs on Earth for "+age+" years !!!");
     }
+    
+    public String toString(){
+        return "toString";
+    }
 }

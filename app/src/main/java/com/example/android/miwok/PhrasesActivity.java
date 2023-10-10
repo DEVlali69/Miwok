@@ -24,6 +24,8 @@ public class PhrasesActivity extends AppCompatActivity {
         word.add(new Word("I’m coming.", "әәnәm", R.raw.phrase_im_coming));
         word.add(new Word("Let’s go.", "yoowutis", R.raw.phrase_lets_go));
         word.add(new Word("Come here.", "әnni'nem", R.raw.phrase_come_here));
+        word.add(new Word("Come here.", "әnni'nem", R.raw.phrase_come_here));
+        word.add(new Word("Come here.", "әnni'nem", R.raw.phrase_come_here));
 
         WordAdapter wordAdapter = new WordAdapter(this, word, R.color.category_phrases);
 

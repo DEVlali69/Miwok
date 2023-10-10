@@ -72,7 +72,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
             public void onClick(View view) {
                 mediaPlayer.start();
                 final int duration;
-                duration = 150;
+                duration = 200;
                 Toast.makeText(mContext, "Playing Audio", duration).show();
             }
         });

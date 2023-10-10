@@ -23,6 +23,10 @@ public class Word {
         return mImage;
     }
 
+    public String toString(){
+        return String.format("%s -> %s",mDefaultTranslation,mMiwokTranslation);
+    }
+
     public String getDefaultTranslation() {
         return mDefaultTranslation;
     }
